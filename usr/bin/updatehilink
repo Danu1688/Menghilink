@@ -1,5 +1,5 @@
 #!/bin/ash
-# Installation script by ARYO.
+# Installation script by Danu1688
 
 DIR=/usr/bin
 
@@ -12,7 +12,7 @@ clear
     echo "Untuk Menjalankan Ketik m dan enter di terminal"
     sleep 2
     echo ""
-    echo "SALAM SEWU MANGATUS"
+    echo "SALAM SEDULURAN SAKLAWASE"
     echo ""
     echo ""
 }
@@ -20,14 +20,14 @@ clear
 download_files()
 {
   	echo "Update Script hilink mak cling..."
-   	rm -f $DIR/m && wget -O $DIR/m https://raw.githubusercontent.com/aryobrokolly/menghilink/main/usr/bin/m && chmod +x $DIR/m
- 	rm -f $DIR/hilink && wget -O $DIR/hilink https://raw.githubusercontent.com/aryobrokolly/menghilink/main/usr/bin/hilink && chmod +x $DIR/hilink
-  	rm -f $DIR/balong-nvtool && wget -O $DIR/balong-nvtool https://raw.githubusercontent.com/aryobrokolly/menghilink/main/usr/bin/balong-nvtool && chmod +x $DIR/balong-nvtool
+   	rm -f $DIR/m && wget -O $DIR/m https://raw.githubusercontent.com/Danu1688/Menghilink/main/usr/bin/m && chmod +x $DIR/m
+ 	rm -f $DIR/hilink && wget -O $DIR/hilink https://raw.githubusercontent.com/Danu1688/Menghilink/main/usr/bin/hilink && chmod +x $DIR/hilink
+  	rm -f $DIR/balong-nvtool && wget -O $DIR/balong-nvtool https://raw.githubusercontent.com/Danu1688/Menghilink/main/usr/bin/balong-nvtool && chmod +x $DIR/balong-nvtool
     	finish
 }
 
 echo ""
-echo "Install Script code from repo aryo."
+echo "Install Script code from repo Danu1688"
 
 while true; do
     read -p "Apakah akan update script hilink (y/n)? " yn
